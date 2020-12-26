@@ -1,0 +1,96 @@
+.header {
+
+  .top-header {
+    background-color: #343434;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sns-links {
+      display: flex;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 12px 12px 12px;
+        font-size: 17px;
+        border-right: 1px solid #494949;
+        color: #e4f1fe;
+        transition: 0.3s;
+        &:hover {
+          color: #fff;
+          &.twitter {
+            background-color: #43bcff;
+          }
+          &.google {
+            background-color: #ff3636;
+          }
+          &.facebook {
+            background-color: #2b4fff;
+          }
+          &.instagram {
+            background-color: #7d2cff;
+          }
+          &.skype {
+            background-color: #30c6d2;
+          }
+        }
+      }
+    }
+
+    .consulting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #dedede;
+
+      i {
+        margin-left: 20px;
+        font-size: 25px;
+        margin-right: 5px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+  .bottom-header {
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .logo {
+        padding: 20px 0;
+        font-size: 28px;
+        img {
+          max-height: 45px;
+        }
+      }
+
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          margin: 20px 15px;
+          text-transform: capitalize;
+          font-weight: 500;
+          cursor: pointer;
+          color: #2f362f;
+          &:hover {
+            color: #34a6e3;
+          }
+          i {
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+  }
+}

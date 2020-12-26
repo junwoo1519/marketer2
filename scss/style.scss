@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+//base
+@import "base/nomalize";
+@import "base/reset";
+@import "base/common";
+
+//components
+@import "components/button";
+@import "components/header";
+@import "components/video";
+
+//pages
+@import "pages/main";
+
+//utils
+@import "utils/function";
+@import "utils/mixin";
+@import "utils/variable";
