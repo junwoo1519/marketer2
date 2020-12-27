@@ -1,0 +1,45 @@
+.main {
+
+  .banner {
+    background-color: #3498db;
+
+    .container {
+      display: flex;
+      height: 80vh;
+
+      .banner-explanation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        color: #ffffff;
+
+        h1 {
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 38px;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-weight: 100;
+          font-size: 18px;
+          line-height: 1.6;
+          margin-bottom: 30px;
+        }
+
+        a {
+          width: 164px;
+          letter-spacing: 2px;
+        }
+      }
+
+      .banner-img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

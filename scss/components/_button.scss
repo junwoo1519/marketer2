@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #fff;
+  height: 53px;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+}
