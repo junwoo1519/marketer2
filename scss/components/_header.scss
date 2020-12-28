@@ -85,6 +85,106 @@
         justify-content: center;
         align-items: center;
 
+        .pages {
+          position: relative;
+
+          &:hover {
+            .pages-dropdown {
+              display: block;
+            }
+          }
+
+          .category {
+            -webkit-border-radius: 0 0 5px 5px;
+            -moz-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+            background-color: #ffffff;
+            display: flex;
+            width: 30vw;
+            padding: 20px 15px 20px 15px;
+
+            .head-text {
+              text-transform: capitalize;
+              font-weight: 500;
+              margin-bottom: 10px;
+            }
+
+            .bottom-text {
+              font-size: 13px;
+              font-weight: 300;
+              color: #4a527b;
+              margin-bottom: 20px;
+            }
+
+            .pages-links {
+              a {
+                display: block;
+                font-size: 13px;
+                color: #6a6a6a;
+                margin: 5px 5px 10px 0;
+                padding: 0;
+
+                &:hover {
+                  color: #34a6e3;
+                }
+
+                i {
+                  margin: 0 5px 0 0;
+                  font-size: 15px;
+                }
+              }
+
+
+            }
+
+            .about-marketer {
+              padding-right: 50px;
+            }
+
+            .extra-pages {
+
+            }
+          }
+        }
+
+        .case-blog {
+          position: relative;
+
+          &:hover {
+            .case-dropdown {
+              display: block;
+            }
+          }
+
+          &:hover {
+            .blog-dropdown {
+              display: block;
+            }
+          }
+
+          .category {
+            background-color: #fff;
+            -webkit-border-radius: 0 0 5px 5px;
+            -moz-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+
+            a {
+              display: block;
+              width: 15vw;
+              border-bottom: 1px solid #a0a0a0;
+              padding: 15px 0px 15px 10px;
+              margin: 0;
+              font-weight: 400;
+              font-size: 13px;
+              color: #767c89;
+
+              &:hover {
+                color: #34a6e3;
+              }
+            }
+          }
+        }
+
         li {
           padding: 35px 0;
         }
@@ -93,8 +193,9 @@
           margin: 20px 15px;
           text-transform: capitalize;
           font-weight: 500;
-          cursor: pointer;
           color: #2f362f;
+          padding: 30px 0 30px 0;
+          cursor: pointer;
 
           &:hover {
             color: #34a6e3;
@@ -104,19 +205,6 @@
             margin-left: 3px;
           }
         }
-
-        .pages {
-          position: relative;
-          
-          .dropdown {
-            //display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background-color: #342334;
-          }
-        }
-
       }
     }
   }

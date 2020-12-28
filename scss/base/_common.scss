@@ -11,3 +11,27 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0 15px;
+  text-transform: capitalize;
+}
+
+.sub-title {
+  margin: 0 0 15px;
+  font-weight: 100;
+  line-height: 24px;
+}

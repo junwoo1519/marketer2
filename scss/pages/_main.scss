@@ -42,4 +42,75 @@
       }
     }
   }
+
+  .sponsor {
+    background-color: #f6f7f8;
+
+    .container {
+      padding: 30px;
+
+      .sponsor-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          max-height: 70px;
+          margin: 0 23px;
+          transition: 0.3s;
+          opacity: 0.5;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .amazing-features-box {
+    padding: 90px 0 50px;
+    .amazing-features-main {
+
+      .container {
+        text-align: center;
+        color: #2f362f;
+      }
+    }
+
+    .amazing-features-sub {
+
+      .container {
+        margin-top: 30px;
+        display: flex;
+        text-align: center;
+        color: #2f362f;
+
+        img {
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+        }
+
+        .amazing-features-sub-title {
+          font-size: 20px;
+          margin: 20px 0 10px;
+          font-weight: 500;
+          text-transform: capitalize;
+
+          .seo {
+            text-transform: uppercase;
+          }
+        }
+
+        .amazing-features-sub-text {
+          font-size: 15px;
+          margin: 0 0 15px;
+          padding: 0 10px;
+          line-height: 1.4;
+
+        }
+      }
+    }
+  }
 }
