@@ -381,14 +381,17 @@ body {
   -moz-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px; }
 
+.box {
+  border-top: 1px solid #eaeaea; }
+
 .title {
   font-size: 32px;
   font-weight: 500;
-  margin: 0 0 15px;
+  margin: 0 0 15px 0;
   text-transform: capitalize; }
 
 .sub-title {
-  margin: 0 0 15px;
+  margin: 0 0 15px 0;
   font-weight: 100;
   line-height: 24px; }
 
@@ -575,31 +578,211 @@ body {
         opacity: 0.5; }
         .main .sponsor .container .sponsor-logo img:hover {
           opacity: 1; }
-.main .amazing-features-box {
+.main .amazing-features {
   padding: 90px 0 50px; }
-  .main .amazing-features-box .amazing-features-main .container {
-    text-align: center;
-    color: #2f362f; }
-  .main .amazing-features-box .amazing-features-sub .container {
+  .main .amazing-features .amazing-features-main .container {
+    text-align: center; }
+    .main .amazing-features .amazing-features-main .container .amazing-features-head {
+      color: #2f362f; }
+    .main .amazing-features .amazing-features-main .container .amazing-features-text {
+      color: #7c8595; }
+  .main .amazing-features .amazing-features-sub .container {
     margin-top: 30px;
     display: flex;
     text-align: center;
     color: #2f362f; }
-    .main .amazing-features-box .amazing-features-sub .container img {
+    .main .amazing-features .amazing-features-sub .container .fully-customizable {
+      padding: 0 15px;
+      margin: 30px 0; }
+    .main .amazing-features .amazing-features-sub .container .responsive-design {
+      padding: 0 15px;
+      margin: 30px 0; }
+    .main .amazing-features .amazing-features-sub .container .seo-ready-code {
+      padding: 0 15px;
+      margin: 30px 0; }
+    .main .amazing-features .amazing-features-sub .container .afs-wrap {
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap; }
+      .main .amazing-features .amazing-features-sub .container .afs-wrap .afs {
+        width: 33.33%; }
+        .main .amazing-features .amazing-features-sub .container .afs-wrap .afs img {
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          border-radius: 0; }
+    .main .amazing-features .amazing-features-sub .container img {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%; }
-    .main .amazing-features-box .amazing-features-sub .container .amazing-features-sub-title {
+    .main .amazing-features .amazing-features-sub .container .amazing-features-sub-title {
       font-size: 20px;
       margin: 20px 0 10px;
       font-weight: 500;
       text-transform: capitalize; }
-      .main .amazing-features-box .amazing-features-sub .container .amazing-features-sub-title .seo {
+      .main .amazing-features .amazing-features-sub .container .amazing-features-sub-title .seo {
         text-transform: uppercase; }
-    .main .amazing-features-box .amazing-features-sub .container .amazing-features-sub-text {
+    .main .amazing-features .amazing-features-sub .container .amazing-features-sub-text {
       font-size: 15px;
       margin: 0 0 15px;
       padding: 0 10px;
-      line-height: 1.4; }
+      line-height: 1.4;
+      color: #7c8595; }
+.main .video .video-main {
+  background-color: #f6f7f8;
+  padding: 90px 0 90px 0; }
+  .main .video .video-main .container {
+    display: flex; }
+    .main .video .video-main .container .video-play {
+      width: 50%; }
+    .main .video .video-main .container .video-text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 0 0 14px;
+      color: #656565; }
+      .main .video .video-main .container .video-text p {
+        padding: 14px 20px;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.2);
+        cursor: pointer;
+        transition: 0.3s; }
+        .main .video .video-main .container .video-text p:hover {
+          background-color: #eeeeee; }
+      .main .video .video-main .container .video-text i {
+        font-size: 20px; }
+.main .latest-projects {
+  background-color: #393f43;
+  padding: 90px 0 50px 0; }
+  .main .latest-projects .latest-projects-main .container {
+    text-align: center; }
+    .main .latest-projects .latest-projects-main .container .latest-projects-head {
+      color: #DDDDDD; }
+    .main .latest-projects .latest-projects-main .container .latest-projects-text {
+      color: #BBBBBB; }
+  .main .latest-projects .latest-projects-sub .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main .latest-projects .latest-projects-sub .container .item {
+      padding: 0 15px;
+      margin-top: 30px; }
+      .main .latest-projects .latest-projects-sub .container .item .thumb {
+        position: relative; }
+        .main .latest-projects .latest-projects-sub .container .item .thumb:hover .item-hover {
+          opacity: 1; }
+        .main .latest-projects .latest-projects-sub .container .item .thumb .item-hover {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.6);
+          opacity: 0;
+          transition: 0.3s;
+          cursor: pointer; }
+          .main .latest-projects .latest-projects-sub .container .item .thumb .item-hover i {
+            font-size: 40px;
+            color: #ffffff; }
+      .main .latest-projects .latest-projects-sub .container .item img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; }
+      .main .latest-projects .latest-projects-sub .container .item .item-text {
+        background-color: #fff;
+        text-align: center;
+        font-weight: 500;
+        margin: 0 0 20px;
+        padding: 1px 20px 12px;
+        border-bottom: 3px solid #e0e0e0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px; }
+        .main .latest-projects .latest-projects-sub .container .item .item-text a {
+          display: inline-block;
+          font-size: 18px;
+          color: #454545;
+          margin: 10px 0 1px; }
+        .main .latest-projects .latest-projects-sub .container .item .item-text p {
+          margin: 10px 0 5px;
+          color: #7c8595;
+          font-style: oblique; }
+.main .statistic-main {
+  background-color: #2f3539;
+  padding: 25px 0 30px 0; }
+  .main .statistic-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    .main .statistic-main .container .icon {
+      padding: 15px 15px 0 15px;
+      width: 220px; }
+      .main .statistic-main .container .icon i {
+        font-size: 45px;
+        color: #3498db;
+        margin: 0 0 10px; }
+      .main .statistic-main .container .icon .statistic {
+        font-size: 28px;
+        color: #dddddd;
+        font-weight: 500;
+        margin: 0 0 10px; }
+      .main .statistic-main .container .icon .statistic-name {
+        font-size: 15px;
+        color: #bbbbbb;
+        text-transform: capitalize;
+        font-style: italic;
+        font-weight: 500;
+        margin: 0 0 15px; }
+.main .happy-clients-testimonials {
+  padding: 90px 0;
+  background-color: #3498db; }
+  .main .happy-clients-testimonials .happy-clients-testimonials-main .container {
+    text-align: center;
+    color: #ffffff; }
+  .main .happy-clients-testimonials .happy-clients-testimonials-sub .container {
+    display: flex; }
+    .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .ceo-box {
+      width: 33.33%;
+      padding: 10px 15px 30px; }
+    .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .speech-bubble {
+      line-height: 26px;
+      padding: 30px;
+      background-color: #fff;
+      color: #7c8595;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      position: relative; }
+      .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .speech-bubble span {
+        background-color: #fff;
+        display: block;
+        width: 12px;
+        height: 12px;
+        left: 65px;
+        bottom: -6px;
+        position: absolute;
+        transform: rotate(45deg); }
+    .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .people-icon-box {
+      display: flex; }
+      .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .people-icon-box .people-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff; }
+        .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .people-icon-box .people-icon p {
+          font-weight: 500; }
+          .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .people-icon-box .people-icon p span {
+            display: inline-block;
+            margin-top: 5px;
+            font-weight: 100; }
+        .main .happy-clients-testimonials .happy-clients-testimonials-sub .container .people-icon-box .people-icon img {
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          background-color: #fff;
+          padding: 4px;
+          margin: 15px 15px 0 25px; }
 
 /*# sourceMappingURL=style.css.map */
