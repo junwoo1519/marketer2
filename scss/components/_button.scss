@@ -15,3 +15,12 @@
   cursor: pointer;
   user-select: none;
 }
+
+.read-more {
+  transition: 0.3s;
+
+  &:hover {
+    background-color: rgb(102, 102, 102);
+    border-color: rgb(102, 102, 102)
+  }
+}
